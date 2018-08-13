@@ -3,7 +3,7 @@ $(call inherit-product, device/xiaomi/polaris/full_polaris.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := full_polaris
+PRODUCT_NAME := aosp_polaris
 PRODUCT_DEVICE := polaris
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 2S
